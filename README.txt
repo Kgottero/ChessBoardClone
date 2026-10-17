@@ -33,3 +33,10 @@ Custom SVG chess pieces:
    - pawn-w.svg, knight-w.svg, bishop-w.svg, rook-w.svg, queen-w.svg, king-w.svg
 3. The app loads the SVGs automatically. The -b suffix is black and -w is white.
 4. If an SVG is missing or has a filename mismatch, the app falls back to its built-in chess symbol.
+
+
+Stockfish evaluation features added:
+- A vertical evaluation bar shows White/Black advantage.
+- The single best move is displayed in coordinate notation (for example e2 -> e4).
+- Analysis refreshes when the board position changes, including screenshot-imported positions.
+- Keep stockfish-19-lite-single.js and stockfish-19-lite-single.wasm in the project root for Stockfish analysis.
